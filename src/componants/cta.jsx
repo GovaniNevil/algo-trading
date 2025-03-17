@@ -5,10 +5,10 @@ export default function CTASection() {
     return (
         <section className="bg-black text-white  text-center">
             <div className="container-fluid mx-auto">
-                <div className="   mx-auto bg-[#a3e635]  py-10 px-20 text-center  relative">
-                    <div className="text-center md:text-left py-12 px-12 bg-[#a3e635]">
-                        <h2 className="text-5xl font-semibold text-black bg-[#a3e635]">Start investing today.</h2>
-                        <p className=" mt-4  text-lg   bg-[#a3e635] text-black">
+                <div className="   mx-auto bg-[#57b283]  py-10 px-20 text-center  relative">
+                    <div className="text-center md:text-left py-12 px-12 bg-[#57b283]">
+                        <h2 className="text-5xl font-semibold text-black bg-[#57b283]">Start investing today.</h2>
+                        <p className=" mt-4  text-lg   bg-[#57b283] text-black">
                             Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed erat.
                         </p>
                         <a

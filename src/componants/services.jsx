@@ -14,7 +14,7 @@ const ServiceGrid = () => {
     return (
         <section className="py-12 text-white">
             <div className="container mx-auto px-6 text-center">
-                <h2 className="text-6xl font-semibold mb-12">
+                <h2 className="text-6xl text-400 mb-12">
                     Our <span className="primary-color">Services</span>
                 </h2>
                 <div className="grid grid-cols-2 gap-12">
@@ -22,8 +22,8 @@ const ServiceGrid = () => {
                         <TiltedCard key={index} containerHeight="100%" containerWidth="100%" rotateAmplitude={12} showMobileWarning={false} showTooltip={false}>
                             <SpotlightCard className="custom-spotlight-card" spotlightColor="#a3fd3540">
                                 <div className="p-6 rounded-lg bg-neutral-900 shadow-md flex flex-col">
-                                    <div className="text-7xl text-blue-400 mb-6 service-icon bg-transparent text-[#a3fd35]">{service.icon}</div>
-                                    <h3 className="text-start text-3xl font-bold bg-transparent">{service.title}</h3>
+                                    <div className="text-7xl mb-6 service-icon bg-transparent text-[#a3fd35]">{service.icon}</div>
+                                    <h3 className="text-start text-3xl text-400 bg-transparent">{service.title}</h3>
                                     <p className="text-start text-lg text-[#8e8e8e] mt-4 bg-transparent">{service.description}</p>
                                     <div className="button bg-transparent mt-10 text-start">
                                         <a href={service.link} className="service-btn px-[30px] py-[15px] bg-transparent rounded-lg border">Learn More</a>

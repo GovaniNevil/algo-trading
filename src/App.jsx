@@ -5,8 +5,10 @@ import Banner from './componants/banner';
 import StockTicker from './componants/stockprice';
 import ServiceGrid from './componants/services';
 import ReviewSection from './componants/clientreview';
-import CtaSection from './componants/cta';
+import Stockvideo from './componants/stockvideo';
 import Footer from './componants/footer';
+import Feature from './componants/feature';
+import Contactus from './componants/contact-us';
 
 function App() {
   return (
@@ -15,9 +17,11 @@ function App() {
       <Banner />
       <StockTicker />
       <ServiceGrid />
-      <ReviewSection />   
-       <CtaSection />
-      {/* <Footer />   */}
+      <Stockvideo />
+      <Feature />
+      <ReviewSection />
+      {/* <Contactus /> */}
+      <Footer />  
     </>
   );
 }

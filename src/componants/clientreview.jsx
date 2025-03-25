@@ -7,7 +7,7 @@ export default function ReviewSection() {
             <div className="container mx-auto mt-[150px]">
                 <div className="flex flex-col lg:flex-row items-center gap-10 justify-between banner-row">
                     <div className="bannercontent w-[60%]">
-                        <h1 className="banner-title text-[82px] leading-[100px] font-[400] text-[#ffffff]">What Our Users Say</h1>
+                        <h1 className="banner-title text-[60px] leading-[100px] font-[400] text-[#ffffff]">What Our Users Say</h1>
                         <p className="banner-text text-xl my-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam sit earum suscipit similique error quaerat deserunt perferendis quae porro neque. Nemo, laborum. Suscipit eligendi quisquam expedita, nam repellat a maxime.</p>
                         <button className="banner-btn base-btn primary-bg">Get Started</button>
                     </div>

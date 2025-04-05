@@ -5,6 +5,8 @@ import Home from "./pages";
 import Contact from "./pages/contact-us";
 import Pricing from "./pages/pricing";
 import About from "./pages/about";
+import Service from "./pages/service";
+import TradingTools from "./pages/tradingtools";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact-us" element={<Contact />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/tradingtool" element={<TradingTools />} />
       </Routes>
       <Footer />
     </Router>

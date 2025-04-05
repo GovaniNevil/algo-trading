@@ -51,12 +51,12 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-[#57b283]">
+              <a href="/service" className="text-white hover:text-[#57b283]">
                 Service
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-[#57b283]">
+              <a href="/tradingtool" className="text-white hover:text-[#57b283]">
                 Trading Tool
               </a>
             </li>
@@ -65,11 +65,11 @@ const Header = () => {
                 Pricing
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#" className="text-white hover:text-[#57b283]">
                 Blog
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="/contact-us" className="text-white hover:text-[#57b283]">
                 Contact Us
@@ -108,7 +108,7 @@ const Header = () => {
               </a>
             </li>
             <li className="mb-[15px]">
-              <a href="#" className="text-white hover:text-[#57b283]">
+              <a href="/tradingtool" className="text-white hover:text-[#57b283]">
                 Tradng Tools
               </a>
             </li>
@@ -117,11 +117,11 @@ const Header = () => {
                 Pricing
               </a>
             </li>
-            <li className="mb-[15px]">
+            {/* <li className="mb-[15px]">
               <a href="#" className="text-white hover:text-[#57b283]">
                 Blog
               </a>
-            </li>
+            </li> */}
             <li className="mb-[15px]">
               <a href="/contact-us" className="text-white hover:text-[#57b283]">
                 Contact Us

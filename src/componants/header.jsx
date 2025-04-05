@@ -32,7 +32,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-6">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <a href="#">
+          <a href="/">
             <img src={Logo} alt="Logo" className="w-[200px]" />
           </a>
         </div>
@@ -41,12 +41,12 @@ const Header = () => {
         <nav className="hidden lg:flex space-x-6 items-center text-[18px] font-medium">
           <ul className="flex space-x-8">
             <li>
-              <a href="#" className="text-white hover:text-[#57b283]">
+              <a href="/" className="text-white hover:text-[#57b283]">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-[#57b283]">
+              <a href="/about" className="text-white hover:text-[#57b283]">
                 About Us
               </a>
             </li>
@@ -61,7 +61,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-[#57b283]">
+              <a href="/pricing" className="text-white hover:text-[#57b283]">
                 Pricing
               </a>
             </li>
@@ -71,7 +71,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-[#57b283]">
+              <a href="/contact-us" className="text-white hover:text-[#57b283]">
                 Contact Us
               </a>
             </li>
@@ -109,20 +109,27 @@ const Header = () => {
             </li>
             <li className="mb-[15px]">
               <a href="#" className="text-white hover:text-[#57b283]">
-                Blog
+                Tradng Tools
+              </a>
+            </li>
+            <li className="mb-[15px]">
+              <a href="/pricing" className="text-white hover:text-[#57b283]">
+                Pricing
               </a>
             </li>
             <li className="mb-[15px]">
               <a href="#" className="text-white hover:text-[#57b283]">
+                Blog
+              </a>
+            </li>
+            <li className="mb-[15px]">
+              <a href="/contact-us" className="text-white hover:text-[#57b283]">
                 Contact Us
               </a>
             </li>
-            <li>
-              <a
-                href="#"
-                className="bg-lime-400 text-black font-medium px-4 py-2 rounded-full hover:bg-lime-500"
-              >
-                Download App
+            <li className="mb-[15px]">
+              <a href="#" className="text-white hover:text-[#57b283]">
+                
               </a>
             </li>
           </ul>

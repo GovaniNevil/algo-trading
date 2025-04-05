@@ -1,28 +1,23 @@
-// Desc: Main App component
-import './App.css';
-import Header from './componants/header';
-import Banner from './componants/banner';
-import StockTicker from './componants/stockprice';
-import ServiceGrid from './componants/services';
-import ReviewSection from './componants/clientreview';
-import Stockvideo from './componants/stockvideo';
-import Footer from './componants/footer';
-import Feature from './componants/feature';
-import Contactus from './componants/contact-us';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./componants/header"; // Optional: Add Navbar for navigation
+import Footer from "./componants/footer";
+import Home from "./pages";
+import Contact from "./pages/contact-us";
+import Pricing from "./pages/pricing";
+import About from "./pages/about";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Banner />
-      <StockTicker />
-      <ServiceGrid />
-      <Stockvideo />
-      <Feature />
-      <ReviewSection />
-      {/* <Contactus /> */}
-      <Footer />  
-    </>
+    <Router>
+      <Header /> {/* Common Navbar */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/contact-us" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
